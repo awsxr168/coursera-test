@@ -1,0 +1,30 @@
+      .nav-link {
+      background: 000000;
+      text-align: center;
+      border-color: black;
+      }
+
+      h2 {
+        text-align: center;
+        border-top: 20px;
+        border-bottom: 12px;
+      }
+
+      .blank {
+        height: 12px;
+      }
+
+      .main-content{
+        text-align: center;
+        background: lightgray;
+        padding: 12px;
+        margin: 32px;
+      }
+
+      @media (min-width: 576px){
+      .navbar-toggler{
+        display: none;
+      }
+      .main-content{
+        margin: 12px;
+      }
